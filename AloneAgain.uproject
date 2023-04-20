@@ -35,9 +35,26 @@
 			"Enabled": true
 		},
 		{
-			"Name": "UltimateFPSTemplate",
+			"Name": "VisualStudioTools",
 			"Enabled": true,
-			"MarketplaceURL": "https://online-leaks.com/"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GeneralMovement",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0a128683c41f4b59906c661b95ca8655"
+		},
+		{
+			"Name": "UltimateFPSFramework",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4986d4f5b73148deb154e1cd31dd9623"
 		}
 	]
 }
