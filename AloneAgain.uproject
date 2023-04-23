@@ -9,17 +9,14 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"GeneralMovement"
 			]
 		}
 	],
 	"Plugins": [
 		{
 			"Name": "ApexDestruction",
-			"Enabled": true
-		},
-		{
-			"Name": "EnhancedInput",
 			"Enabled": true
 		},
 		{
