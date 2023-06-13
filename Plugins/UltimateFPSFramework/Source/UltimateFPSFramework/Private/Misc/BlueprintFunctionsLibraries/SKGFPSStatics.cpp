@@ -98,11 +98,10 @@ void USKGFPSStatics::SpawnEffects(const FHitResult& HitResult, const FSKGImpactE
 	}
 }
 
-void USKGFPSStatics::PlaySoundDelayed(const AActor* WorldActor, const FVector& Location, FSKGSoundSettings SoundSettings)
-{
+void USKGFPSStatics::PlaySoundDelayed(const AActor* WorldActor, const FVector& Location, FSKGSoundSettings SoundSettings){
 	if (WorldActor && WorldActor->GetWorld())
 	{
-		if (const ACharacter* LocalCharacter = UGameplayStatics::GetPlayerCharacter(WorldActor->GetWorld(), 0))
+		if (const APawn* LocalCharacter = UGameplayStatics::GetPlayerPawn(WorldActor->GetWorld(), 0))
 		{
 			const float Delay = GetSpeedOfSoundDelayLocation(Location, LocalCharacter->GetActorLocation());
 			if (Delay < 0.15f)
